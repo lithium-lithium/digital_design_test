@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  background-color: #F7F7F7;
+}
+h2, h4, p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+nav {
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #D9D6D6;
+  position: fixed;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top:
+  }
+  .logo {
+  width: 180px;
+  }
+  .nav_item input {
+    background-image: url("img/search.png");
+    background-repeat: no-repeat;
+    background-position: 33% 50% ;
+    background-size: 12px;
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid #D9D6D6;
+    text-align: center;
+    background-color: #F7F7F7;
+  }
+  .nav_item input:focus {
+    background-position: 5% 50% ;
+    text-align: left;
+    text-indent: 30px;
+    height: 25px;
+    width: 200px;
+    border: 1px solid #D9D6D6;
+    background-color: white;
+  }
+
+  .nav_item_right {
+    display: flex;
+  }
+  .compas {
+  background-image: url("img/compas.png");
+background-size: 25px;
+background-repeat: no-repeat;
+background-position: right;
+width: 25px;
+height: 25px;
+margin-left: 40px;
+cursor: pointer;}
+.like {
+background-image: url("img/like.png");
+background-size: 25px;
+background-repeat: no-repeat;
+background-position: right;
+width: 25px;
+height: 25px;
+margin-left: 40px;
+cursor: pointer;}
+.user {
+background-image: url("img/user.png");
+background-size: 25px;
+background-repeat: no-repeat;
+background-position: right;
+width: 25px;
+height: 25px;
+margin-left: 40px;
+cursor: pointer;}
+main {
+padding-top: 70px;
+}
+header {
+  display: flex;
+  padding: 30px;
+width: 600px;
+margin: auto;
+}
+ header div:nth-child(1) {
+   flex: 1;
+   margin: auto;
+ }
+ header div:nth-child(2) {
+   flex: 1;
+ }
+.avatar {
+  width: 170px;
+  height: 170px;
+  border-radius: 170px;
+  overflow: hidden;
+}
+.avatar img{
+width: 170px;
+}
+header button {
+  background-color: #0079BF;
+  border-radius: 3px;
+  width: 200px;
+  height: 30px;
+  border: none;
+cursor: pointer;
+}
+button p {
+  color: white;
+  margin: auto;
+}
+article h2 {
+text-align: center;
+}
+#tape {
+  width: 600px;
+margin-left: auto;
+margin-right: auto;
+}
+#tape:hover {
+  box-shadow: 0 0 70px 2px rgba(122,122,122,0.1);
+}
+.photo_container {
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+.photo_container img {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+}
+.description {
+  width: 600px;
+  margin-left: 10px;
+}
+.description span {
+  cursor: pointer;
+  margin: 3px;
+  color: #0079BF;
+}
+.count_like {
+  background-image: url(img/like.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 25px;
+  height: 25px;
+  width: 50px;
+  margin-left: 5px;
+}
+.count_like p {
+  margin-left: 30px;
+  padding-top: 4px;
+}
+.comments_block {
+width: 600px !important;
+padding-bottom: 50px;
+}
+.comments_block b {
+cursor: pointer;
+margin-right: 10px;
+}
+
+.button_top {
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+}
+.button_top img {
+  width: 60px;
+  opacity: 0.1;
+}
+.button_top img:hover {
+  opacity: 0.5;
+}
+footer {
+  height: 50px;
+  background-color: white;
+  border-top: 1px solid #D9D6D6;
+}
+footer p {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 10px;
+  padding-top: 10px;
+}
